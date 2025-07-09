@@ -14,6 +14,12 @@ for a given task.
 Release Information
 *******************
 
+username : inventory1
+password : inventory1
+
+username : admin1
+password : admin1
+
 This repo contains in-development code for future releases. To download the
 latest stable release please visit the `CodeIgniter Downloads
 <https://codeigniter.com/download>`_ page.
