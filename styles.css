@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+    animation: fadeIn 1.5s ease;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #d9534f;
+    margin-bottom: 10px;
+}
+
+.welcome-text {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+.btn-secondary {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #c9302c;
+    border-color: #c12e2a;
+}
+
+a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #014c8c;
+}
+
+.google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #db4437;
+    color: #db4437;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.google-btn:hover {
+    background-color: #db4437;
+    color: white;
+}
+
+.google-btn img {
+    margin-right: 10px;
+}
+
+.header-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verification-group {
+    display: flex;
+    align-items: center;
+}
+
+.verification-group .form-control {
+    flex: 1;
+    max-width: 80%;
+}
+
+.verification-group .btn-secondary {
+    margin-left: 10px;
+}
+
+.login-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
